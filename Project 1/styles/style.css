@@ -1,0 +1,887 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: auto;
+}
+#navbar{
+    background-color: #103928;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-top: 1em;
+}
+#prenav{
+    width: 100%;
+    height: auto;
+    padding-left: 2em;
+}
+#metalogo{
+    width: 5.5em;
+    height: 3.5em;
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color: #103928;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2em;
+    padding-top: 4em;
+}
+#whatsapplogo{
+    width: 16%;
+    margin-top: -2em;
+
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    width: 70%;
+    margin-right: -15em;
+    margin-left: 0em;
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin-right: 4em;
+    margin-left: -7em;
+    margin-top: -1em;
+    list-style: none;
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu button{
+    background-color: #43dc66;
+    font-size: 1em;
+    height: 3em;
+    border: #43dc66;
+    align-items: flex-start;
+    border-radius: 30px;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    margin-top: -2em;
+    transition: all;
+    transition-duration: 0.4s;
+}
+#menu button:hover{
+    opacity: 0.6;
+}
+#togglebtn{
+    display: none;
+}
+#fontawesome{
+    width: 12%;
+    color: #43dc66;
+    background-color: #103928;
+    margin-top: -1.5em;
+    border: none;
+    font-size: 1.2em;
+    transition: all;
+    transition-duration: 0.4s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#fontawesome:hover{
+    opacity:0.6
+}
+#downbtn{
+    color: white;
+    margin-left: 0.4em;
+    font-size: 0.8em;
+    display: inline;
+}
+#advert{
+    background-color: #d9eafb;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+#advert p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+#advert a:hover{
+    opacity: 0.8;
+}
+#globebtn{
+    margin-right: 0.2em;
+    font-size: 1em;
+    display: inline;
+}
+#productchoice{
+    width: 100%;
+    background-color:#103938;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3em;
+    margin-top: -1em;
+}
+#biztransform{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5em;
+}
+#biztransform h1{
+    color: #43dc66;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.7em;
+}
+#biztransform p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#biztransform button{
+    color: #43dc66;
+    height: 4em;
+    font-size: 1em;
+    border: #43dc66;
+    border-radius: 30px;
+    width: 15em;
+    margin-top: 2em;
+    transition: all;
+    transition-duration: 0.4s;
+}
+#biztransform button:hover{
+    opacity: 0.6;
+}
+.transformbiz{
+    width: 50%;
+}
+#productchoice2{
+    padding: 5em;
+}
+#productchoice2 img{
+    width: 30em;
+    height: 30em;
+    align-self: center;
+}
+#lg2sm{
+    width: 100%;
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#lg2sm h6{
+    text-align: center;
+    opacity: 0.8;
+    width: 100%;
+}
+#lg2sm p{
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 3.2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+#lg2sm span{
+    text-decoration: underline;
+    text-decoration-color: #43dc66;
+}
+#bizsupport{
+    width: 100%;
+    background-color: #ffff;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 6em;
+    margin-bottom: 10em;
+}
+.support{
+    width: 40%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    padding: 3em;
+    box-shadow: 0 0.1em 0.9em -0.4em;
+    border-radius: 10px;
+    padding-top: 6em;
+}
+.fa-solid{
+    color: #43dc66;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.support h3{
+    margin-bottom: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+.support p{
+    opacity: 0.9;
+    font-size: 1.1em;
+}
+.arrowtext{
+    text-decoration: none;
+    color: black;
+    margin-left: 1.1em;
+    font-weight: 400;
+    font-size: 2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#arrow2{
+    font-size: 2.5em;
+}
+#arrow1{
+    font-size: 2.5em;
+}
+#collapse{
+width: 100%;
+height: 100vh;
+background-color: #f1e9de;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+.dropdown{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dropdown img{
+    border-radius: 15px;
+    width: 80%;
+    height: 60%;
+    margin-top: 7em;
+}
+.dropdown:nth-of-type(2){
+    margin-left: -5em;
+}
+.dropdown h2{
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 0.6em;
+}
+#drop{
+    margin-top: 2.4em;
+    margin-right: 0.5em;
+}
+#accordionExample{
+width: 85%;
+font-size: 1.3em;
+opacity: 0.8;
+font-family: Arial, Helvetica, sans-serif;
+opacity: 1;
+margin-bottom:4em ;
+}
+.accordion-body{
+background-color: #f1e9de;
+}
+.accordion-button{
+    background-color: #f1e9de;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#success-stories{
+    width: 100%;
+    width:80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 8em;
+    margin-left: 8em;
+    margin-bottom: 4em;
+}
+#success-stories h4{
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+#success-stories h1{
+    font-size: 3em;
+    width: 20em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1em;
+}
+#success-stories span{
+    font-size: 0.4em;
+}
+#carousel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+#carousel div{
+    background-color: #d6fcdf;
+    margin-left: 3em;
+    padding: 3em;
+    border-radius: 25px;
+    margin-bottom: 3em;
+}
+#carousel img{
+    border-radius: 25px;
+    margin-top: 2em;
+    width: 40em;
+    height: 25em;
+}
+#carousel h1{
+    font-size: 3em;
+}
+#learnmore{
+    width: 100%;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+#learnmore div{
+    background-color: #103928;
+    border-radius: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+#learnmore h1{
+    text-align: center;
+    color: #43dc66;
+    font-size: 3.5em;
+}
+#learnmore p{
+color: white;
+text-align: center;
+font-size: 1.2em;
+}
+#learnmore3{
+    background-color: #43dc66;
+    align-self: center;
+    font-size: 1.2em;
+    height: 3.5em;
+    border: #43dc66;
+    align-items: flex-start;
+    border-radius: 40px;
+    width: 16%;
+    transition: all;
+    transition-duration: 0.4s;
+}
+#learnmore3:hover{
+opacity: 0.6;
+}
+main{
+    margin-bottom: 20em;
+}
+footer{
+    width: 100%;
+    height: 25vh;
+    background-color: #43dc66;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#footer-logo{
+    width: 16%;
+    
+}
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 65%;
+    margin-top: 4em;
+    margin-left: -2em;
+}
+footer li{
+    padding-right: 0.5em;
+
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    transition: all;
+    transition-duration: 0.4s;
+}
+footer a:hover{
+opacity: 0.8;
+}
+span{
+    margin-top: 4em;
+    margin-left: 0.6em;
+    margin-right: 0.5em;
+}
+/* time to make the site responsive*/
+
+/* first i adjust how the page looks on a device whose screen width 1200px and below*/
+
+@media(max-width: 1200px) {
+    #togglebtn{
+display: block;
+font-size: 2em;
+color: white;
+margin-top: -0.2em;
+margin-left: 0.5em;
+float: right;
+    }
+    #advert{
+        margin-top: 3em;
+    
+    }
+    #menu {
+        display: none;
+    }
+#fontawesome{
+    margin-top: -3em;
+
+}
+#whatsapplogo{
+    width: 40%;
+    margin-top: -3em;
+}
+main{
+    margin-top: -5rem;
+}
+#productchoice img{
+width: 96%;
+height: 90%;
+}
+#biztransform h1{
+    font-size: 3em;
+}
+#biztransform p{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 1em;
+}
+#lg2sm{
+    margin-top: 5em;
+}
+#lg2sm p{
+    margin-top: 5em;
+}
+.support{
+    padding-top: 3em;
+}
+#arrow1, #arrow2{
+    font-size: 1.5em;
+}
+.dropdown img{
+    margin-right: 5em;
+}
+#collapse{
+    height: 120vh;
+}
+.dropdown h1{
+    font-size: 3.5em;
+    text-align: left;
+    width: 70%;
+    margin-bottom: 0em;
+    margin-top: 0.5em;
+}
+#success-stories h1{
+    width: 150%;
+}
+#lernmore{
+    margin-bottom: 25em;
+    margin-top: 0em;
+}
+#learnmore div{
+    height: 70vh;
+    margin-bottom: 1em;
+}
+#learnmore button{
+    height: 3.5em;
+    border: #43dc66;
+    width: 20%;
+}
+}
+
+/* I add a styling instruction for the screensizes b3low 1000*/
+
+@media(max-width:1000px){
+#productchoice{
+    flex-direction: column;
+    align-content: space-between;
+}
+.transformbiz{
+    width: 100%;
+}
+#productchoice2 img{
+height: 35em;
+}
+#biztransform p{
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    font-size: 1.2em;
+}
+#lg2sm p{
+font-size: 2.5em;
+}
+#bizsupport{
+    flex-direction: column;
+    align-content: center;
+}
+.support{
+    width: 90%;
+    margin-bottom: 2em;
+}
+#collapse{
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 3em;
+    margin-top: -6em;
+}
+#dropdown{
+    width: 100%;
+}
+#dropdown img{
+    width: 90%;
+    margin-left:3.6em
+}
+#dropdown2{
+    width: 100%;
+    margin-top: 3em;
+    padding-left: 3em;
+    margin-left: -1em;
+}
+#dropdown2 h1{
+    width: 100%;
+    margin-left: 1.5em;
+    margin-bottom: 0.5em;
+    font-size: 2.5em;
+    font-weight: 400;
+    text-decoration: left;
+}
+#accordionexample{
+    width: 98%;
+    margin-left: 3em;
+}
+#success-stories h1{
+    width: 100%;
+    margin-left: -2em;
+    font-size: 2.3em;
+}
+#success-stories h4{
+    margin-left: -3.5em;
+}
+#success-stories{
+    margin-bottom: 4em;
+    width: 80%;
+}
+#success-stories h1{
+    width: 100%;
+}
+#success-stories span{
+    margin-left: -8em;
+    font-size: 0.5em;
+}
+#whatsapplogo{
+    width: 30%;
+    margin-top: -4em;
+}
+#learnmore{
+    margin-top: 15em;
+}
+
+
+#learnmore div{
+    padding: 3em;
+    width: 90%;
+}
+#learnmore div{
+    padding: 3em;
+    width: 90%;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+    align-content: space-around;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+footer ul{
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+    align-content: space-evenly;
+    margin-left: -34em;
+}
+footer li{
+    margin-bottom: 1em;
+    margin-bottom: 1.2em;
+}
+#footer-logo{
+    margin-left: -21em;
+    width: 25%;
+}
+footer span{
+     margin-left: -17em;
+     font-size: 1.2em;
+}
+}
+
+/* i add another styling instruction to for screen sizes below 900px*/
+
+@media (max-width:900px) {
+    #carousel img{
+        width: 500px;
+        height: 300px;
+    }
+    #learnmore{
+        margin-top: 5em;
+    }
+}
+
+/* i add another styling instruction to for screen sizes below 800px*/
+
+@media (max-width:800px) {
+    #learnmore{
+        margin-top: 15em;
+    }
+}
+
+/* i add another styling instruction to for screen sizes below 750px*/
+
+@media (max-width:750px) {
+#success-stories h1{
+width: 100%;
+}
+#learnmore{
+    margin-top: 1em;
+}
+#success-stories span{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer{
+    flex-direction: column;
+    align-items: center;
+}
+footer ul{
+    margin-left: -20em;
+}
+}
+
+/* i add another styling instruction to for screen sizes below 700px*/
+
+@media (max-width:700px) {
+#carousel img{
+    width: 400px;
+}
+#carousel h1{
+    font-size: 1.8em;
+}
+}
+
+/* i add another styling instruction to for screen sizes below 650px*/
+
+@media (max-width:650px) {
+
+#advert{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#learnmore{
+    margin-top: 8em;
+}
+#productchoice{
+    margin-top: -1em;
+    padding-top: 0em;
+}
+#productchoice h1{
+    margin-top: -1em ;
+}
+#productchoice2{
+    margin-top: -5em ;
+}
+#productchoice img{
+    height: 30em;
+    width: 100%;
+}
+#lg2sm{
+margin-top: 3em;
+}
+#bizsupport{
+    margin-top: 2em;
+}
+#collapse{
+    margin-top: -8em;
+}
+#success-stories{
+    margin-top: 6em;
+    width: 70%;
+}
+#success-stories h1{
+    font-size: 2em;
+    width: 90%;
+    margin-left: -2em;
+    margin-top: 1em;
+}
+#success-stories span{
+    margin-left: -10em;
+}
+#learnmore{
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+#learnmore div{
+    width: 100%;
+}
+#learnmore button{
+    width: 60%;
+}
+footer span{
+margin-left: -12em;
+}
+footer{
+    margin-top: 5em;
+}
+}
+
+/* i add another styling instruction to for screen sizes below 560px*/
+
+@media (max-width:560px) {
+
+#success-stories{
+    margin-left: 0em;
+    padding-left: 8em;
+    margin-bottom: 5em;
+}
+
+#success-stories h4{
+    width: 100%;
+}
+#success-stories h1{
+    width: 12em;
+}
+#success-stories span{
+    width: 35em;
+}
+#carousel{
+    flex-direction: column;
+    padding-right: 3em;
+}
+#carousel div{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em 0em 1em 1em;
+    width: 100%;
+}
+#carousel img{
+    margin-left: 2em;
+}
+#learnmore{
+    margin-top: 5em;
+}
+footer{
+    padding-left: 5em;
+}
+#footer-logo{
+    width: 10em;
+}
+footer ul{
+    width: 90%;
+}
+footer{
+    margin-top: 25em;
+}
+#lg2sm p{
+    width: 100%;
+    font-size: 2em;
+}
+#productchoice2 img{
+    height: 20em;
+}
+}
+
+/* i add another styling instruction to for screen sizes below 250px*/
+
+@media (max-width:250px) {
+#biztransform h1{
+    width: 2em;
+    font-size: 2em;
+    margin-left: -1.8em;
+}   
+#biztransform p{
+    width: 10em;
+    margin-left: -3em;
+    margin-bottom: 13em;
+    padding-right: 0em;
+}   
+#biztransform button{
+    width: 12em;
+    align-self: center;
+}
+#productchoice2 img{
+    width: 14em;
+}
+#lg2sm p{
+align-self: center;
+font-size: 1.5em;
+width: 7.5em;
+padding: 0em;
+}
+.suuport h3{
+font-size: 1.5em;
+}
+#learnmore div{
+    height: 40em;
+}
+.carouseldiv{
+    width: 10em;
+}
+#carousel h1{
+    font-size: 1.3em;
+    width: 80%;
+}
+#success-stories h1{
+    font-size: 1.2em;
+    margin-left: -4em;
+}
+footer{
+    margin-top: 22em;
+}
+footer span{
+    font-size: 1em;
+    margin-left: -17em;
+}
+#footer-logo{
+    margin-left: -19em;
+}
+#carousel img{
+    width: 10em;
+}
+}
